@@ -13,6 +13,11 @@
 		2D6C92F026EF27C600522894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C92EE26EF27C600522894 /* Main.storyboard */; };
 		2D6C92F226EF27C700522894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C92F126EF27C700522894 /* Assets.xcassets */; };
 		2D6C92F526EF27C700522894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6C92F326EF27C700522894 /* LaunchScreen.storyboard */; };
+		2D6C92FD26EF2ABC00522894 /* G20ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C92FC26EF2ABC00522894 /* G20ListTableViewController.swift */; };
+		2D6C92FF26EF2AFB00522894 /* G20Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C92FE26EF2AFB00522894 /* G20Struct.swift */; };
+		2D6C930326EF2B4F00522894 /* G20InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C930226EF2B4F00522894 /* G20InfoViewController.swift */; };
+		2D6C930526EF2B6100522894 /* G20WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C930426EF2B6100522894 /* G20WikiViewController.swift */; };
+		2D6C930726EF2BAE00522894 /* CustomizedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6C930626EF2BAE00522894 /* CustomizedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		2D6C92F126EF27C700522894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D6C92F426EF27C700522894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D6C92F626EF27C700522894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6C92FC26EF2ABC00522894 /* G20ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G20ListTableViewController.swift; sourceTree = "<group>"; };
+		2D6C92FE26EF2AFB00522894 /* G20Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G20Struct.swift; sourceTree = "<group>"; };
+		2D6C930226EF2B4F00522894 /* G20InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G20InfoViewController.swift; sourceTree = "<group>"; };
+		2D6C930426EF2B6100522894 /* G20WikiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = G20WikiViewController.swift; sourceTree = "<group>"; };
+		2D6C930626EF2BAE00522894 /* CustomizedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,8 @@
 		2D6C92DC26EF27C600522894 = {
 			isa = PBXGroup;
 			children = (
+				2D6C930026EF2AFF00522894 /* Struct */,
+				2D6C930126EF2B1900522894 /* ViewController */,
 				2D6C92E726EF27C600522894 /* Swift Practice # 74  G20 For customized TableVIew */,
 				2D6C92E626EF27C600522894 /* Products */,
 			);
@@ -65,6 +77,25 @@
 				2D6C92F626EF27C700522894 /* Info.plist */,
 			);
 			path = "Swift Practice # 74  G20 For customized TableVIew";
+			sourceTree = "<group>";
+		};
+		2D6C930026EF2AFF00522894 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C92FE26EF2AFB00522894 /* G20Struct.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		2D6C930126EF2B1900522894 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D6C92FC26EF2ABC00522894 /* G20ListTableViewController.swift */,
+				2D6C930226EF2B4F00522894 /* G20InfoViewController.swift */,
+				2D6C930426EF2B6100522894 /* G20WikiViewController.swift */,
+				2D6C930626EF2BAE00522894 /* CustomizedTableViewCell.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6C930526EF2B6100522894 /* G20WikiViewController.swift in Sources */,
 				2D6C92ED26EF27C600522894 /* ViewController.swift in Sources */,
+				2D6C930726EF2BAE00522894 /* CustomizedTableViewCell.swift in Sources */,
 				2D6C92E926EF27C600522894 /* AppDelegate.swift in Sources */,
+				2D6C930326EF2B4F00522894 /* G20InfoViewController.swift in Sources */,
+				2D6C92FF26EF2AFB00522894 /* G20Struct.swift in Sources */,
+				2D6C92FD26EF2ABC00522894 /* G20ListTableViewController.swift in Sources */,
 				2D6C92EB26EF27C600522894 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
